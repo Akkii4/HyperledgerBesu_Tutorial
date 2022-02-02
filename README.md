@@ -1,24 +1,28 @@
 # HyperledgerBesu_Tutorial
 
-Instaling Besu Steps MacOS:
-Pre Requirements : brew installed
+## Instaling Besu Steps MacOS:
 
-Step 1: brew install adoptopenjdk
+> Pre Requirements : brew installed
 
-Step 2: brew tap hyperledger/besu
+Step 1: Install Java 
+```brew install adoptopenjdk```
 
-Step 3: brew install besu
+Step 2: 
+```brew tap hyperledger/besu```
+
+Step 3: 
+```brew install besu```
 
 Check if installed 
-besu --version
+```besu --version```
 
-Deploying Contract to Besu
+### Deploying Contract to Besu
 
 Step 1: Run besu 
-npm run besu
+```npm run besu```
 
 Step 2: In another terminal run
-truffle migrate --reset --network besu
+```truffle migrate --reset --network besu```
 
 
 
