@@ -1,0 +1,23 @@
+{
+  "name": "hyperledgerbesu_tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "besu": "besu --network=dev --miner-enabled --miner-coinbase=0xfe3b557e8fb62b89f4916b721be55ceb828dbd73 --rpc-http-cors-origins='all' --host-whitelist='*' --rpc-ws-enabled --rpc-http-enabled --data-path=/tmp/tmpDatdir",
+    "console": "truffle console --network besu"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Akkii4/HyperledgerBesu_Tutorial.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Akkii4/HyperledgerBesu_Tutorial/issues"
+  },
+  "homepage": "https://github.com/Akkii4/HyperledgerBesu_Tutorial#readme",
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^2.0.0"
+  }
+}
